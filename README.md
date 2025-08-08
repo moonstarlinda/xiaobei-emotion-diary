@@ -18,7 +18,7 @@ My baby tiger's emotion diary
 ![预览图](screenshot.png)
 
 ## 📱 在线试玩
-👉 [点击进入小北的情绪日记](https://你的用户名.github.io/xiaobei-emotion-diary/)
+👉 [点击进入小北的情绪日记](https://moonstarlinda.github.io/xiaobei-emotion-diary/)
 
 ## 🛠 本地运行
 下载仓库，直接用浏览器打开 `index.html` 即可，无需安装任何依赖。
