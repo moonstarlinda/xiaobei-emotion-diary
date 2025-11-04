@@ -527,5 +527,18 @@
 - 实现方法：给 .wrap 外层再加一层 grid，左列 64px 放竖直 tabs，右列放现有内容。
 如需我实现，回头出 v4.2 带这个布局切换开关（顶部“布局：顶部/侧边”）。
 -->
+  <script>
+// 1. 一键下载离线包
+document.addEventListener('keydown', e => {
+  if (e.ctrlKey && e.key === 's') {
+    e.preventDefault();
+    let a = document.createElement('a');
+    a.href = location.href;
+    a.download = '小北的情绪日记.html';
+    a.click();
+  }
+});
+// 2. 按 Ctrl+S 后，双击文件就能离线用
+</script>
 </body>
 </html>
